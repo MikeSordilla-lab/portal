@@ -1,0 +1,3 @@
+# Placeholder for admin-logo.png
+# This file should be replaced with the admin panel logo (PNG format)
+# Suggested: 150x50 pixels, works on dark background

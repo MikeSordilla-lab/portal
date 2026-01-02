@@ -1,0 +1,50 @@
+# Student Portal .gitignore
+# PHP/Web Project Patterns
+
+# Environment and configuration
+.env
+.env.*
+*.env
+config/database.php.local
+
+# IDE and editor files
+.idea/
+.vscode/settings.json
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.tmp
+
+# Logs
+*.log
+logs/
+error_log
+access_log
+
+# Uploads - keep structure but ignore contents
+student_portal/uploads/profile_pictures/*
+!student_portal/uploads/profile_pictures/.gitkeep
+
+# Dependencies (if any)
+vendor/
+node_modules/
+
+# Build outputs
+dist/
+build/
+
+# Cache
+*.cache
+.php_cs.cache
+
+# Backup files
+*.bak
+*.backup
+*~
